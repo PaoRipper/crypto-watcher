@@ -5,7 +5,7 @@ const cryptosNewsOptions = {
   headers: {
     "X-BingApis-SDK": "true",
     "X-RapidAPI-Host": "bing-news-search1.p.rapidapi.com",
-    "X-RapidAPI-Key": "d047877ca9msh8ccf0e55e3063dap16160fjsn1de1c76e392e",
+    "X-RapidAPI-Key": process.env.NEXT_PUBLIC_CRYPTO_API_KEY,
   },
 };
 

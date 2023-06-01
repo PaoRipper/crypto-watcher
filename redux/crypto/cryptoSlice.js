@@ -3,7 +3,7 @@ import { createAsyncThunk, createSlice, current } from "@reduxjs/toolkit";
 const cryptosOptions = {
   method: 'GET',
   headers: {
-    'X-RapidAPI-Key': 'd047877ca9msh8ccf0e55e3063dap16160fjsn1de1c76e392e',
+    'X-RapidAPI-Key': process.env.NEXT_PUBLIC_CRYPTO_API_KEY,
     'X-RapidAPI-Host': 'coinranking1.p.rapidapi.com'
   }
 };

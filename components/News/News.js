@@ -33,7 +33,7 @@ const News = (props) => {
                     <Title className="" level={4}>
                       {news.name}
                     </Title>
-                    <Image
+                    <img
                       src={news?.image?.thumbnail.contentUrl ?? demoImage}
                       alt="news-image"
                     />

@@ -17,10 +17,12 @@ const Cryptocurrencies = (props) => {
 
   const dispatch = useDispatch();
 
+
   useEffect(() => {
     dispatch(getCryptos({ count: (props.count || count) ?? 50, search: props.search ?? "" }))
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [props.count, props.search]);
+
 
   if (loading) return <Loading />;
 
@@ -32,7 +34,7 @@ const Cryptocurrencies = (props) => {
             <NavLink href="/cryptocurrencies/1">
               <Card
                 title={item.name}
-                extra={<Image className="w-9 h-9" src={item.iconUrl} alt="crypto-icon" />}
+                extra={<img className="w-9 h-9" src={item.iconUrl} alt="crypto-icon" />}
                 bordered={false}
                 className="p-3 w-71 hover:drop-shadow-lg transition-all hover:scale-20 cursor-pointer"
               >

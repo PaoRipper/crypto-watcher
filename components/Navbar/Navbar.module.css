@@ -1,0 +1,32 @@
+.nav-container {
+  height: 100rem;
+  position: fixed;
+  width: 250px;
+  background-color: rgb(0, 21, 41);
+  display: flex;
+  flex-direction: column;
+}
+
+/* @media screen and (min-width: 0px) {
+  .nav-container {
+    width: 100%;
+    height: 0rem;
+    position: relative;
+  }
+  .nav-container ul {
+    position: relative;
+    top: 2px;
+  }
+  .nav-container ul li {
+    float: left;
+  }
+
+  .header {
+    display: none;
+  }
+  
+} */
+
+
+
+

@@ -1,0 +1,15 @@
+.crypto-layout {
+  top: 2.5rem;
+  position: absolute;
+  left: 17rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.crypto-layout-page {
+  width: calc(100% - 300px);
+  top: 2.5rem;
+  position: absolute;
+  left: 17rem;
+}

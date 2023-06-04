@@ -29,7 +29,7 @@ const Cryptocurrency = () => {
         width: "20rem",
       }}
     />
-    <Cryptocurrencies count={50} search={search} />
+    <Cryptocurrencies count={30} search={search} />
     {/* <h1 className="absolute left-80 top-4 text-2xl font-bold">Cryptocurrency Page</h1> */}
   </div>
   )
